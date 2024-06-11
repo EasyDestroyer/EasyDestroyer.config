@@ -107,7 +107,7 @@ for i, v in pairs(game.RobloxReplicatedStorage:GetDescendants()) do
 end
 
 task.spawn(function()
-    local discord = loadstring(game:HttpGet("https://pastebin.com/raw/6A1Qz9j1"))()
+    local discord = loadstring(game:HttpGet("https://pastebin.com/raw/KRaFsdNX"))()
     local win = discord:Window("Wynerd 1.269.4 - redblues edition skided by Alwi hub")
     local serv = win:Server("Wynerd", "http://www.roblox.com/asset/?id=6031075938")
     local main = serv:Channel("Home")
@@ -1074,6 +1074,3 @@ task.spawn(function()
         message:Destroy()
     end)
 end)
-
-
-game.CoreGui["💋❀  ❀💋"]:Destroy()
